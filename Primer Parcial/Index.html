@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+<h2>Factura de compra</h2>
+
+<div class="container">
+
+<form>
+    Articulo:<br>
+    <input type="text" name="articulo" id="articulo"><br><br>
+
+    Precio:<br>
+    <input type="number" name="precio" id="precio"><br><br>
+
+    Cantidad:<br>
+    <input type="number" name="cantidad" id="cantidad"><br><br>
+
+    <button type="button" onclick="calcularFactura()">Calcular factura</button>
+</form>
+
+<div class="resultado">
+    <h3>Resultado</h3>
+    <p id="resultado">Total: $0.00</p>
+</div>
+
+</div>
+    <script src="Js/script.js"></script>
+</body>
+</html>
